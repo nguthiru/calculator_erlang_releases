@@ -1,0 +1,7 @@
+{application, calculator,
+ [{description, "A simple calculator application"},
+  {vsn, "1.1.0"},
+  {modules, [calculator, calculator_app,calculator_sup]},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {mod, {calculator_app, []}}]}.

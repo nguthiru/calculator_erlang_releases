@@ -1,0 +1,5 @@
+{release, {"calculator", "1.0.0"}, {erts, "15.2"},
+ [{kernel, "10.2"},
+  {stdlib, "6.2"},
+  {sasl, "4.2.2"},
+  {calculator, "1.0.0"}]}.
